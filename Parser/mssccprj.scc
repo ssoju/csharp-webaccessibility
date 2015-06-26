@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[Parser.csproj]
+SCC_Aux_Path = "\\203.234.173.151\dev\SourceSafe"
+SCC_Project_Name = "$/Source/WebAccessibility/Parser", MFDAAAAA

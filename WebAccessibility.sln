@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockWindow", "DockWindow\DockWindow.csproj", "{D7240444-C40F-42E9-8A2D-9300C319647E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parser", "Parser\Parser.csproj", "{948FB96C-38DB-437C-9FCB-56CD055E1D8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAccessibilityDemo", "WebAccessibility\WebAccessibilityDemo.csproj", "{7E65CC11-D6DE-4C9B-A0F3-053A00B2E583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkThread", "ManagedThread\WorkThread.csproj", "{5E500250-C309-499C-89A3-E18CAE216B19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checker", "Checker\Checker.csproj", "{A102D6C0-3C31-4911-A819-22676C7A0D6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reporter", "Reporter\Reporter.csproj", "{BDF324F8-A0E7-4FE9-94AB-3CFA52EBF852}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 7
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DockWindow\\DockWindow.csproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = DockWindow\\
+		SccProjectUniqueName2 = Parser\\Parser.csproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = Parser\\
+		SccProjectUniqueName3 = WebAccessibility\\WebAccessibilityDemo.csproj
+		SccLocalPath3 = .
+		SccProjectFilePathRelativizedFromConnection3 = WebAccessibility\\
+		SccProjectUniqueName4 = ManagedThread\\WorkThread.csproj
+		SccLocalPath4 = .
+		SccProjectFilePathRelativizedFromConnection4 = ManagedThread\\
+		SccProjectUniqueName5 = Checker\\Checker.csproj
+		SccLocalPath5 = .
+		SccProjectFilePathRelativizedFromConnection5 = Checker\\
+		SccProjectUniqueName6 = Reporter\\Reporter.csproj
+		SccLocalPath6 = .
+		SccProjectFilePathRelativizedFromConnection6 = Reporter\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7240444-C40F-42E9-8A2D-9300C319647E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7240444-C40F-42E9-8A2D-9300C319647E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7240444-C40F-42E9-8A2D-9300C319647E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7240444-C40F-42E9-8A2D-9300C319647E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{948FB96C-38DB-437C-9FCB-56CD055E1D8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{948FB96C-38DB-437C-9FCB-56CD055E1D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{948FB96C-38DB-437C-9FCB-56CD055E1D8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{948FB96C-38DB-437C-9FCB-56CD055E1D8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E65CC11-D6DE-4C9B-A0F3-053A00B2E583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E65CC11-D6DE-4C9B-A0F3-053A00B2E583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E65CC11-D6DE-4C9B-A0F3-053A00B2E583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E65CC11-D6DE-4C9B-A0F3-053A00B2E583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E500250-C309-499C-89A3-E18CAE216B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E500250-C309-499C-89A3-E18CAE216B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E500250-C309-499C-89A3-E18CAE216B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E500250-C309-499C-89A3-E18CAE216B19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A102D6C0-3C31-4911-A819-22676C7A0D6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A102D6C0-3C31-4911-A819-22676C7A0D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A102D6C0-3C31-4911-A819-22676C7A0D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A102D6C0-3C31-4911-A819-22676C7A0D6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDF324F8-A0E7-4FE9-94AB-3CFA52EBF852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF324F8-A0E7-4FE9-94AB-3CFA52EBF852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF324F8-A0E7-4FE9-94AB-3CFA52EBF852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF324F8-A0E7-4FE9-94AB-3CFA52EBF852}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

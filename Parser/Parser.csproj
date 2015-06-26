@@ -1,0 +1,83 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{948FB96C-38DB-437C-9FCB-56CD055E1D8C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Parser</RootNamespace>
+    <AssemblyName>Parser</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Html\Base\IBaseVisitor.cs" />
+    <Compile Include="Html\Base\IDiagnosisable.cs" />
+    <Compile Include="Html\Base\IVisitor.cs" />
+    <Compile Include="Html\CHtmlAttribute.cs" />
+    <Compile Include="Html\CHtmlAttributeCollection.cs" />
+    <Compile Include="Html\CHtmlDocument.cs" />
+    <Compile Include="Html\CHtmlParser.cs" />
+    <Compile Include="Html\CHtmlNodeCollection.cs" />
+    <Compile Include="Html\IHtmlNodeHasAttribute.cs" />
+    <Compile Include="Html\IHtmlParser.cs" />
+    <Compile Include="Html\CHtmlComment.cs" />
+    <Compile Include="Html\CHtmlElement.cs" />
+    <Compile Include="Html\CHtmlNode.cs" />
+    <Compile Include="Html\CHtmlProcessingInstruction.cs" />
+    <Compile Include="Html\CHtmlScript.cs" />
+    <Compile Include="Html\CHtmlStyle.cs" />
+    <Compile Include="Html\CHtmlText.cs" />
+    <Compile Include="Html\Css\CCssProperty.cs" />
+    <Compile Include="Html\Css\CCssPropertyCollection.cs" />
+    <Compile Include="Html\Css\CCssResolver.cs" />
+    <Compile Include="Html\Css\CCssSelector.cs" />
+    <Compile Include="Html\Css\CCssSimpleSelector.cs" />
+    <Compile Include="Html\Css\CCssSpecificity.cs" />
+    <Compile Include="Html\CHtmlUtil.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
